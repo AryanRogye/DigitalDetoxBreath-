@@ -10,6 +10,7 @@
 		9B1F34732EDEA7C60054D352 /* DigitalDetox.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9B1F34722EDEA7C60054D352 /* DigitalDetox.icon */; };
 		9B1F34742EDEA7C60054D352 /* DigitalDetox.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9B1F34722EDEA7C60054D352 /* DigitalDetox.icon */; };
 		9B1F34782EDEB02D0054D352 /* DigitalDetoxBreath Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B42851B2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B1F34932EDF57070054D352 /* DigitalDetox.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9B1F34722EDEA7C60054D352 /* DigitalDetox.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		9B1F345B2EDEA49D0054D352 /* DigitalDetoxBreathiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalDetoxBreathiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1F34722EDEA7C60054D352 /* DigitalDetox.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = DigitalDetox.icon; sourceTree = "<group>"; };
+		9B1F34802EDF56DE0054D352 /* DigitalDetoxBreathmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalDetoxBreathmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B42851B2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalDetoxBreath Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,11 @@
 			path = DigitalDetoxBreathiOS;
 			sourceTree = "<group>";
 		};
+		9B1F34812EDF56DE0054D352 /* DigitalDetoxBreathmacOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigitalDetoxBreathmacOS;
+			sourceTree = "<group>";
+		};
 		9B42851D2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "DigitalDetoxBreath Watch App";
@@ -70,6 +77,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B1F34582EDEA49D0054D352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1F347D2EDF56DE0054D352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,6 +113,7 @@
 				9B1F34722EDEA7C60054D352 /* DigitalDetox.icon */,
 				9B42851D2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App */,
 				9B1F345C2EDEA49D0054D352 /* DigitalDetoxBreathiOS */,
+				9B1F34812EDF56DE0054D352 /* DigitalDetoxBreathmacOS */,
 				9B1F34772EDEB02D0054D352 /* Frameworks */,
 				9B42851C2EDA37CC00EA5CD8 /* Products */,
 			);
@@ -109,6 +124,7 @@
 			children = (
 				9B42851B2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App.app */,
 				9B1F345B2EDEA49D0054D352 /* DigitalDetoxBreathiOS.app */,
+				9B1F34802EDF56DE0054D352 /* DigitalDetoxBreathmacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +154,28 @@
 			);
 			productName = DigitalDetoxBreathiOS;
 			productReference = 9B1F345B2EDEA49D0054D352 /* DigitalDetoxBreathiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B1F347F2EDF56DE0054D352 /* DigitalDetoxBreathmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1F34882EDF56DF0054D352 /* Build configuration list for PBXNativeTarget "DigitalDetoxBreathmacOS" */;
+			buildPhases = (
+				9B1F347C2EDF56DE0054D352 /* Sources */,
+				9B1F347D2EDF56DE0054D352 /* Frameworks */,
+				9B1F347E2EDF56DE0054D352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9B1F34812EDF56DE0054D352 /* DigitalDetoxBreathmacOS */,
+			);
+			name = DigitalDetoxBreathmacOS;
+			packageProductDependencies = (
+			);
+			productName = DigitalDetoxBreathmacOS;
+			productReference = 9B1F34802EDF56DE0054D352 /* DigitalDetoxBreathmacOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9B42851A2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App */ = {
@@ -175,6 +213,10 @@
 					9B1F345A2EDEA49D0054D352 = {
 						CreatedOnToolsVersion = 26.0;
 					};
+					9B1F347F2EDF56DE0054D352 = {
+						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
+					};
 					9B42851A2EDA37CC00EA5CD8 = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -196,6 +238,7 @@
 			targets = (
 				9B42851A2EDA37CC00EA5CD8 /* DigitalDetoxBreath Watch App */,
 				9B1F345A2EDEA49D0054D352 /* DigitalDetoxBreathiOS */,
+				9B1F347F2EDF56DE0054D352 /* DigitalDetoxBreathmacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1F34742EDEA7C60054D352 /* DigitalDetox.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1F347E2EDF56DE0054D352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1F34932EDF57070054D352 /* DigitalDetox.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +272,13 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		9B1F34572EDEA49D0054D352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1F347C2EDF56DE0054D352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +311,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = B9P888266K;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalDetoxBreathiOS/Info.plist;
@@ -269,8 +330,11 @@
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aryanrogye.DigitalDetoxBreathiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -288,6 +352,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = B9P888266K;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalDetoxBreathiOS/Info.plist;
@@ -304,8 +371,11 @@
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aryanrogye.DigitalDetoxBreathiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -313,6 +383,77 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B1F34892EDF56DF0054D352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = DigitalDetox;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9P888266K;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryanrogye.DigitalDetoxBreathmacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B1F348A2EDF56DF0054D352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = DigitalDetox;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9P888266K;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryanrogye.DigitalDetoxBreathmacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +648,15 @@
 			buildConfigurations = (
 				9B1F34642EDEA49E0054D352 /* Debug */,
 				9B1F34652EDEA49E0054D352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1F34882EDF56DF0054D352 /* Build configuration list for PBXNativeTarget "DigitalDetoxBreathmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1F34892EDF56DF0054D352 /* Debug */,
+				9B1F348A2EDF56DF0054D352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

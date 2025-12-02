@@ -22,3 +22,6 @@ Package.resolved
 *.moved-aside
 
 buildServer.json
+
+DigitalDetoxBreathmacOS.app
+DigitalDetoxBreath.dmg
