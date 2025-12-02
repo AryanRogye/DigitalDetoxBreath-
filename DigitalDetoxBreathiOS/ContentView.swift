@@ -80,6 +80,7 @@ struct ContentView: View {
                 switch screen {
                 case .start:
                     start
+                        .contentShape(Rectangle())
                         .onTapGesture {
                             Constants.haptic()
                             screen = .breathing
